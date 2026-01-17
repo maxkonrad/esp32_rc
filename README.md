@@ -85,7 +85,7 @@ Each request will return a confirmation message and transmit the corresponding I
 - **ESP-IDF Version**: Update to latest stable version if issues persist
 ## Circuit Schema
 You chould build the following (its gemini generated in this case) circuit for this project. Connecting signal to 18th pin.
-<img width="1921" height="1080" alt="image" src="https://github.com/user-attachments/assets/9ccddfef-6979-4373-9c6f-69990937b0c7" />
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/2fdaf960-1958-4bb7-a14d-40790b7b1643" />
 
 ## Technical Details
 
