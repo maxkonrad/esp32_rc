@@ -83,6 +83,9 @@ Each request will return a confirmation message and transmit the corresponding I
 - **No IR Output**: Check GPIO 18 connection and IR LED circuit
 - **HTTP 404**: Ensure correct endpoint URLs
 - **ESP-IDF Version**: Update to latest stable version if issues persist
+## Circuit Schema
+You chould build the following (its gemini generated in this case) circuit for this project. Connecting signal to 18th pin.
+<img width="1921" height="1080" alt="image" src="https://github.com/user-attachments/assets/9ccddfef-6979-4373-9c6f-69990937b0c7" />
 
 ## Technical Details
 
@@ -98,6 +101,7 @@ I (6325) example: Turning the LED OFF!
 I (7325) example: Turning the LED ON!
 I (8325) example: Turning the LED OFF!
 ```
+
 
 Note: The color order could be different according to the LED model.
 
