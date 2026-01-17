@@ -100,15 +100,3 @@ I (5325) example: Turning the LED ON!
 I (6325) example: Turning the LED OFF!
 I (7325) example: Turning the LED ON!
 I (8325) example: Turning the LED OFF!
-```
-
-
-Note: The color order could be different according to the LED model.
-
-The pixel number indicates the pixel position in the LED strip. For a single LED, use 0.
-
-## Troubleshooting
-
-* If the LED isn't blinking, check the GPIO or the LED type selection in the `Example Configuration` menu.
-
-For any technical queries, please open an [issue](https://github.com/espressif/esp-idf/issues) on GitHub. We will get back to you soon.
