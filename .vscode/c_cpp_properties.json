@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "name": "ESP-IDF",
+      "compilerPath": "${config:idf.toolsPath}/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc",
+      "compileCommands": "${config:idf.buildPath}/compile_commands.json",
+      "defines": [
+        "ESP_PLATFORM",
+        "IDF_VER=\"v5.5.2\"",
+        "CONFIG_LOG_MAXIMUM_LEVEL=3",
+        "CONFIG_FREERTOS_HZ=100",
+        "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\"",
+        "SOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE",
+        "SOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ"
+      ],
+      "includePath": [
+        "${config:idf.espIdfPath}/components/**",
+        "${workspaceFolder}/**"
+      ],
+      "browse": {
+        "path": [
+          "${config:idf.espIdfPath}/components",
+          "${workspaceFolder}"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ],
+  "version": 4
+}
